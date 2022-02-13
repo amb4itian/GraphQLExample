@@ -26,6 +26,8 @@ public class BookResource {
 		return new ResponseEntity<>(exe,HttpStatus.OK);
 	}  
 	
+	
+	// UI format for api
 //	allBooks { 
 //		isn
 //		title
