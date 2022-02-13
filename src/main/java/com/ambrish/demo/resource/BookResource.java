@@ -25,7 +25,7 @@ public class BookResource {
 		ExecutionResult exe = graphQLService.getGraphQL().execute(query);
 		return new ResponseEntity<>(exe,HttpStatus.OK);
 	}
-	//some commit testing 
+	//some commit testing  
 	
 //	allBooks {
 //		isn
